@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <!-- <form id="myForm"> -->
+    <form id="myForm" onsubmit="handleSubmit(event)">
+      <label>Email:</label><br />
+      <input type="email" id="email" /><br />
+      <label>Password:</label><br />
+      <input type="password" id="password" /><br />
+      <div id="message123"></div>
+      <button type="submit">Login</button>
+    </form>
+  </body>
+  <script src="main.js"></script>
+</html>
